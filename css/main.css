@@ -1,9 +1,8 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
 .wrapper {
     width: 100%;
     font-size: 0;
@@ -157,7 +156,6 @@ header:after {
 .brands__content {
     display: inline-block;
     width: 360px;
-    /* margin-left: 150px; */
     margin-right: 57px;
     padding: 22px 0;
 }
