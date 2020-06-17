@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .wrapper {
     width: 100%;
     font-size: 0;
@@ -176,6 +177,9 @@ header:after {
     display: inline-block;
     text-align: right;
 }
+.brands__nav li {
+    display: inline-block;
+}
 .brands-nav__link {
     height: 46px;
     margin: 0 30px; 
@@ -191,6 +195,7 @@ header:after {
     vertical-align: top;
 }
 .features-tab__block {
+    display: block;
     padding: 45px 34px 45px 34px; /*отступы сверху/снизу уменьшены по сравнению с макетом на 5px, иначе не получается квадрат*/
 
     font-weight: 700;
@@ -375,7 +380,7 @@ header:after {
     font-size: 14px;
     color: #FFFFFF;
 }
-.pricing-block__text {
+.pricing-content__block ul li {
     margin: 0 auto;
     padding: 14px;
 
@@ -385,6 +390,7 @@ header:after {
 
     background: #FFFFFF;
     border-bottom: 1px solid #F5F5F5;
+    list-style-type: none;
 }
 /* Section 6: Reviews
 ====================*/
